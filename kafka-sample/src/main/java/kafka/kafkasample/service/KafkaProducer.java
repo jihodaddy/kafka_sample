@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class KafkaProducer {
 
-    private static final String TOPIC = "exam";
+    private static final String TOPIC = "json_topic";
     private final KafkaTemplate<String, String> kafkaTemplate;
 
     @Autowired
